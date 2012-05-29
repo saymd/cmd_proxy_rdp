@@ -1,0 +1,9 @@
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+
+-assumenosideeffects class android.util.Log { public * ; }
+-assumenosideeffects class org.apache.log4j.Logger { public * ; }
+-assumenosideeffects class org.apache.log4j.NDC { public * ; }
